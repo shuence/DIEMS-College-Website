@@ -35,7 +35,7 @@ const Header = () => {
                       </p>
                       <p className="text-base">
                         A constituent College of Marathwada Shikshan Prasarak
-                        Mandal, Chhatrapati Sambhajinagar, Maharashtra
+                        Mandal, <br/> Chhatrapati Sambhajinagar, Maharashtra
                       </p>
                       <br />
                     </div>

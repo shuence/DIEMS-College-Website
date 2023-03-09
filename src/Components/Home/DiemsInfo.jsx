@@ -8,7 +8,7 @@ const DiemsInfo = () => {
         <img
           src={naac}
           alt="Nacc A"
-          class="mx-auto my-auto"
+          className="mx-auto my-auto"
           height={250}
           width={300}
         />
@@ -44,3 +44,5 @@ const DiemsInfo = () => {
 };
 
 export default DiemsInfo;
+
+

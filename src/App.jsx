@@ -1,14 +1,12 @@
 import './App.css';
-import DiemsInfo from './Components/About/DiemsInfo';
 import Header from './Components/Header';
-import Home from './Components/Home/Home';
+import Home from './Components/Home';
 
 function App() {
   return (
     <div className='App'>
-    <Header/>
+      <Header />
       <Home />
-      <DiemsInfo/>
     </div>
   );
 }
