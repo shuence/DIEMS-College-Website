@@ -1,0 +1,26 @@
+.swiper {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .swiper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width:100%
+  }  
+
+  .swiper-button-prev {
+    left: 0;
+    padding: 0 2rem;
+  }
