@@ -1,4 +1,4 @@
-export const testimonialsData = [
+const slides = [
   {
     url: "https://www.dietms.org/wp-content/uploads/2019/12/image56-1024x682.png",
     heading: "Placement 2018-2019",
@@ -20,3 +20,5 @@ export const testimonialsData = [
     des: "Sample Description",
   },
 ];
+
+export default slides;

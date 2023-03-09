@@ -6,7 +6,7 @@ const Header = () => {
     <div data-server-rendered="true" id="app" data-v-3c104230>
       <div className="bg-white relative font-primary" data-v-3c104230>
         <div data-v-572fd66e>
-          <section className="hidden lg:block" data-v-572fd66e>
+          <section className="lg:block" data-v-572fd66e>
             <div className="px-6 py-4 h-full relative" data-v-572fd66e>
               <div className="w-full text-white flex flex-row space-x-4">
                 <a
