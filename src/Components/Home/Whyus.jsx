@@ -1,6 +1,6 @@
 import React from "react";
-import campus from "../../assests/images/campus.jpg";
-import shodh from "../../assests/images/shodh.jpg"
+import academics from "../../assests/images/academics.jpg"
+import industry from "../../assests/images/industry.png"
 
 const Whyus = () => {
   return (
@@ -21,7 +21,7 @@ const Whyus = () => {
                   <div class="w-1/6 p-4">
                     <img
                       alt="Curriculum"
-                      src="https://res.cloudinary.com/mgm-jnec/image/upload/v1641020125/Visual%20Schema/1.%20Home/Lander_WhyJNEC/icon_socialoutreach_lander_fial2m_d3fuhj.svg"
+                      src={academics}
                       class="h-12 g-image"
                     />
                   </div>
@@ -38,8 +38,8 @@ const Whyus = () => {
                 <div class="flex flex-row items-center lg:mt-4">
                   <div class="w-1/6 p-4">
                     <img
-                      alt="LOCF"
-                      src="https://res.cloudinary.com/mgm-jnec/image/upload/v1641020125/Visual%20Schema/1.%20Home/Lander_WhyJNEC/icon_learning_lander_daghwc_etd11j.svg"
+                                          alt="LOCF"
+                        src={industry}
                       class="h-12 g-image"
                     />
                   </div>
@@ -128,8 +128,8 @@ const Whyus = () => {
             <div class="w-full lg:w-1/2">
               <div class="w-full p-4">
                 <iframe
-                  width="560"
-                  height="315"
+                  width="544"
+                  height="272"
                   src="https://www.youtube-nocookie.com/embed/Hpcu9IdMpT0"
                   title="YouTube video player"
                   frameborder="0"
@@ -139,8 +139,8 @@ const Whyus = () => {
               </div>
               <div class="w-full p-4">
                 <iframe
-                  width="560"
-                  height="315"
+                  width="544"
+                  height="272"
                   src="https://www.youtube-nocookie.com/embed/jfZKmR7O9RQ"
                   title="YouTube video player"
                   frameborder="0"
