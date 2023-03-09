@@ -34,7 +34,7 @@ const Navbar = () => {
                 </a>
               </div>
             </div>
-            <div className="w-5/6 bg-ternaryLight shadow " data-v-572fd66e="">
+            <div className="w-5/6 bg-gray-300 shadow " data-v-572fd66e="">
               <div className="hidden md:block h-10 w-full" data-v-572fd66e="">
                 <div
                   className="flex items-center text-gray-400 font-light w-full "
@@ -264,7 +264,7 @@ const Navbar = () => {
         <div className="px-2 lg:px-6 w-full mt-0 block" data-v-572fd66e="">
           <div
             className="
-            bg-primaryLight
+            bg-gray-300
             text-primary
             h-10
             overflow-hidden
@@ -276,8 +276,8 @@ const Navbar = () => {
           "
             data-v-572fd66e=""
           >
-            <div className="track" data-v-572fd66e="">
-              <div className="content" data-v-572fd66e="">
+            <div className="w-full overflow-hidden">
+              <div className="inline-block morquee animate-marquee">
                 <span data-v-572fd66e="">
                   <span
                     data-v-572fd66e=""
@@ -288,7 +288,7 @@ const Navbar = () => {
                       data-v-572fd66e=""
                       href="http://www.dietms.com"
                       target="__blank"
-                      className="text-center bg-secondary text-primaryDark text-xxs"
+                      className=" bg-secondary text-primaryDark text-xxs"
                     ></a>
                   </span>
                 </span>
@@ -302,7 +302,7 @@ const Navbar = () => {
                       data-v-572fd66e=""
                       href="https://dbatu.ac.in"
                       target="__blank"
-                      className="text-center bg-secondary text-primaryDark text-xxs"
+                      className=" bg-secondary text-primaryDark text-xxs"
                     ></a>
                   </span>
                 </span>

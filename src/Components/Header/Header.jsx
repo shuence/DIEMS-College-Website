@@ -15,7 +15,7 @@ const Header = () => {
                   className="w-1/6 flex justify-center items-center active--exact active"
                 >
                   <img
-                    alt="MGM logo"
+                    alt="DIEMS logo"
                     src={logo}
                     className="object-cover max-h-28 g-image"
                   />
@@ -35,7 +35,7 @@ const Header = () => {
                       </p>
                       <p className="text-base">
                         A constituent College of Marathwada Shikshan Prasarak
-                        Mandal, Aurangabad, Maharashtra
+                        Mandal, Chhatrapati Sambhajinagar, Maharashtra
                       </p>
                       <br />
                     </div>
