@@ -1,6 +1,10 @@
 import React from "react";
-import academics from "../../assests/images/academics.jpg"
-import industry from "../../assests/images/industry.png"
+import academics from "../../assests/images/academics.png";
+import industry from "../../assests/images/industry.png";
+import placement from "../../assests/images/placement.png";
+import campus1 from "../../assests/images/campus1.png";
+import industrial from "../../assests/images/industrialrelation.png";
+import Scholarship from "../../assests/images/scholarship.png";
 
 const Whyus = () => {
   return (
@@ -37,11 +41,7 @@ const Whyus = () => {
               <div>
                 <div class="flex flex-row items-center lg:mt-4">
                   <div class="w-1/6 p-4">
-                    <img
-                                          alt="LOCF"
-                        src={industry}
-                      class="h-12 g-image"
-                    />
+                    <img alt="LOCF" src={industry} class="h-12 g-image" />
                   </div>
                   <div class="w-5/6">
                     <p class="font-medium lg:text-lg">Industrial Training</p>
@@ -58,7 +58,7 @@ const Whyus = () => {
                   <div class="w-1/6 p-4">
                     <img
                       alt="Effective teaching-learning models"
-                      src="https://res.cloudinary.com/mgm-jnec/image/upload/v1641020124/Visual%20Schema/1.%20Home/Lander_WhyJNEC/icon_campus_lander_z52gia_sdhebp.svg"
+                      src={industrial}
                       class="h-12 g-image"
                     />
                   </div>
@@ -74,11 +74,7 @@ const Whyus = () => {
               <div>
                 <div class="flex flex-row items-center lg:mt-4">
                   <div class="w-1/6 p-4">
-                    <img
-                      alt="Placement"
-                      src="https://res.cloudinary.com/mgm-jnec/image/upload/v1641020123/Visual%20Schema/1.%20Home/Lander_WhyJNEC/icon_alumni_lander_zsnazc_sswjbh.svg"
-                      class="h-12 g-image"
-                    />
+                    <img alt="Placement" src={placement} class="h-12 g-image" />
                   </div>
                   <div class="w-5/6">
                     <p class="font-medium lg:text-lg">Placement</p>
@@ -93,7 +89,7 @@ const Whyus = () => {
                   <div class="w-1/6 p-4">
                     <img
                       alt="Scholarships"
-                      src="https://res.cloudinary.com/mgm-jnec/image/upload/v1641020123/Visual%20Schema/1.%20Home/Lander_WhyJNEC/icon_industryconnect_lander_wqtlrh_pvzozi.svg"
+                      src={Scholarship}
                       class="h-12 g-image"
                     />
                   </div>
@@ -108,11 +104,7 @@ const Whyus = () => {
               <div>
                 <div class="flex flex-row items-center lg:mt-4">
                   <div class="w-1/6 p-4">
-                    <img
-                      alt="GEEP"
-                      src="https://res.cloudinary.com/mgm-jnec/image/upload/v1641020123/Visual%20Schema/1.%20Home/Lander_WhyJNEC/icon_industryconnect_lander_wqtlrh_pvzozi.svg"
-                      class="h-12 g-image"
-                    />
+                    <img alt="Campus" src={campus1} class="h-12 g-image" />
                   </div>
                   <div class="w-5/6">
                     <p class="font-medium lg:text-lg">Campus And Hostel</p>

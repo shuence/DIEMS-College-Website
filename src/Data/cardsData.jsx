@@ -1,6 +1,6 @@
-import img1 from "../assests/images/admission.jpg";
-import img2 from "../assests/images/redhat.jpg";
-import img3 from "../assests/images/latestnews.jpg";
+import img1 from "../assests/images/admission.png";
+import img2 from "../assests/images/redhat.png";
+import img3 from "../assests/images/latestnews.png";
 import img4 from "../assests/images/importantreads.png";
 
 export const cards = [

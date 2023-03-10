@@ -3,7 +3,7 @@ import naac from "../../assests/images/nacc.png";
 
 const DiemsInfo = () => {
   return (
-    <div className="overflow-hidden py-4 m-6 bg-gray-300">
+    <div className="py-4 m-6 bg-gray-300 rounded overflow-hidden shadow-md">
       <div className="flex mx-40 px-8 justify-center items-center h-full">
         <img
           src={naac}
