@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <>
       <div className="">
-        <div className=" rounded shadow-md items-center overflow-hidden relative flex gap-4 px-0 py-4 m-6 bg-gray-300">
+        <div className="lg:hidden  rounded shadow-md items-center overflow-hidden relative flex gap-4 px-0 py-4 m-6 bg-gray-300">
           <div
             className="flex transition-transform gap-10 ease-out duration-500"
             style={{ transform: `translateX(-${setCurrentSlide * 100}%)` }}
