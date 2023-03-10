@@ -4,6 +4,8 @@ import DiemsInfo from "./DiemsInfo";
 import Events from "./Events";
 import Home from "./Home";
 import Recruiters from "./Recruiters";
+import SkillPartnership from "./SkillPartnership";
+import Testimonials from "./Testimonials";
 import Whyus from "./Whyus";
 import Widgets from "./Widgets";
 
@@ -16,7 +18,9 @@ const index = () => {
       <Cards />
       <Whyus />
       <Events />
-      <Recruiters/>
+      <Recruiters />
+      <SkillPartnership />
+      <Testimonials/>
     </div>
   );
 };

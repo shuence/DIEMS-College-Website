@@ -217,7 +217,7 @@ const Recruiters = () => {
                 <div class=" w-full text-2xl lg:text-4xl font-bold flex items-center justify-center place-self-stretch overflow-hidden">
                   200+
                 </div>
-                <div class=" w-full text-sm lg:text-xl font-semibold uppercase text-center place-self-stretch overflow-hidden">
+                <div class=" w-full text-sm  lg:text-xl font-semibold uppercase text-center place-self-stretch overflow-hidden">
                   Recruiters
                 </div>
               </div>

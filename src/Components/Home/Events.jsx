@@ -9,7 +9,7 @@ const Events = () => {
         <div class="py-10 w-full h-full relative">
           <div class="flex flex-row space-x-4 w-full justify-start h-12 lg:absolute left-0 -mt-16 lg:mt-12">
             <div class="flex-initial">
-              <p class="text-white text-2xl lg:text-4xl bg-primaryDark font-semibold uppercase tracking-widest border-primary rounded ml-6 px-8 py-2">
+              <p class="text-primaryDark text-2xl lg:text-4xl bg-white font-semibold uppercase tracking-widest border-primary rounded ml-6 px-8 py-2">
                 Events
               </p>
             </div>
