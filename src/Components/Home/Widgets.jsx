@@ -68,12 +68,12 @@ const Widgets = () => {
                   />
                   <span className="text-centre text-sm">
                     <button className="coursor-pointer">
-                      <p>Events</p>
-                      <p>Events</p>
-                      <p>Events</p>
-                      <p>Events</p>
-                      <p>Events</p>
-                      <p>Events</p>
+                      <p>News</p>
+                      <p>News</p>
+                      <p>News</p>
+                      <p>News</p>
+                      <p>News</p>
+                      <p>News</p>
                     </button>
                   </span>
                 </div>

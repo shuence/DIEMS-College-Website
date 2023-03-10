@@ -492,33 +492,3 @@
 .btn:hover{
   cursor: pointer;
 }
-
-.elementor-element {
-    --flex-direction: initial;
-    --flex-wrap: initial;
-    --justify-content: initial;
-    --align-items: initial;
-    --align-content: initial;
-    --gap: initial;
-    --flex-basis: initial;
-    --flex-grow: initial;
-    --flex-shrink: initial;
-    --order: initial;
-    --align-self: initial;
-    -ms-flex-preferred-size: var(--flex-basis);
-    flex-basis: var(--flex-basis);
-    -webkit-box-flex: var(--flex-grow);
-    -ms-flex-positive: var(--flex-grow);
-    flex-grow: var(--flex-grow);
-    -ms-flex-negative: var(--flex-shrink);
-    flex-shrink: var(--flex-shrink);
-    -webkit-box-ordinal-group: var(--order);
-    -ms-flex-order: var(--order);
-    order: var(--order);
-    -ms-flex-item-align: var(--align-self);
-    align-self: var(--align-self)
-}
-
-.box-shadow{
- box-shadow:  0 5px 11px 0 rgb(0 0 0 / 20%)
-}
