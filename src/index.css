@@ -492,3 +492,35 @@
 .btn:hover{
   cursor: pointer;
 }
+
+.placementTrack {
+    -webkit-animation: marquee 20s linear infinite;
+    animation: marquee 20s linear infinite;
+    display: inline-flex
+}
+
+.placementTrack:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused
+}
+
+@-webkit-keyframes marquee {
+    0% {
+        transform: translateX(0)
+    }
+
+    to {
+        transform: translateX(-50%)
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0)
+    }
+
+    to {
+        transform: translateX(-50%)
+    }
+}
+
