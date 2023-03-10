@@ -3,6 +3,7 @@ import Cards from "./Cards";
 import DiemsInfo from "./DiemsInfo";
 import Events from "./Events";
 import Home from "./Home";
+import QuickLinks from "./QuickLinks";
 import Recruiters from "./Recruiters";
 import SkillPartnership from "./SkillPartnership";
 import Testimonials from "./Testimonials";
@@ -20,7 +21,8 @@ const index = () => {
       <Events />
       <Recruiters />
       <SkillPartnership />
-      <Testimonials/>
+      <Testimonials />
+      <QuickLinks/>
     </div>
   );
 };
