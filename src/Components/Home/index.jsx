@@ -13,7 +13,7 @@ import Widgets from "./Widgets";
 const index = () => {
   return (
     <div>
-      <Home />
+      <Home/>
       <DiemsInfo />
       <Widgets />
       <Cards />

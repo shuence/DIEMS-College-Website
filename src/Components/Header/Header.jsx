@@ -1,10 +1,11 @@
 import React from "react";
 import logo from "../../assests/images/logo.png";
 import Mobile from "./Mobile";
-import { Route,Link,Routes,BrowserRouter } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 const Header = () => {
-  
+  const navigate = useNavigate();
+
   return (
     <>
       <div data-server-rendered="true" id="app" data-v-3c104230>
@@ -86,10 +87,10 @@ const Header = () => {
           <div
             id="mainNav"
             class="w-full fixed top-0 shadow-md"
-            style={{zIndex: "99999;"}}
+            style={{ zIndex: "99999;" }}
           >
             <div class="h-16 bg-ternaryLight px-4">
-              <div class="flex justify-row justify-between items-center h-full w-full">
+              <div class="flex justify-row gap-20 items-center h-full w-1/2">
                 <div class="flex flex-col">
                   <div class="flex flex-row space-x-4">
                     <img
@@ -115,23 +116,17 @@ const Header = () => {
                         <i class="fas fa-search text-lg" aria-hidden="true"></i>
                       </a>
                     </p>
-                    <BrowserRouter>
-                    <Link to="/Mobile">
-                      <button 
-                      name="nav-button"
-                      class="block hover: focus: focus:outline-none cursor-pointer">
-                      <i class="fas fa-bars text-xl" aria-hidden="true"></i>
-                    </button>
+                    <Link to="/mobile">
+                      <button
+                        name="nav-button"
+                        class="block hover: focus: focus:outline-none cursor-pointer">
+                        <i class="fas fa-bars text-xl" aria-hidden="true"></i>
+                      </button>
                     </Link>
-                    <Routes>
-                    <Route exact path='/Mobile' element={< Mobile />}></Route>
-                    </Routes>
-                    </BrowserRouter>
                   </div>
                 </div>
               </div>
             </div>
-           
           </div>
         </div>
       </section>

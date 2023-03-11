@@ -5,7 +5,7 @@ const Mobile = () => {
   return (
     <div className='lg:hidden'>
       <div class="h-16 bg-ternaryLight px-4">
-    <div class="flex justify-row justify-between items-center h-full w-full">
+      <div class="flex justify-row justify-between items-center h-full w-1/2">
       <div class="flex flex-col">
         <div class="flex flex-row space-x-4">
           <img
@@ -154,13 +154,13 @@ const Mobile = () => {
         IIIC
       </a>
       <a href="/campus" class="text-sm font-medium font-gray-400">
-        JNEC Campus
+        DIEMS Campus
       </a>
       <a
-        href="/about/#AboutJNEC"
+        href="/about/#AboutDIEMS"
         class="text-sm font-medium font-gray-400"
       >
-        About JNEC
+        About DIEMS
       </a>
       <a
         href="/downloads"
